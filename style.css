@@ -1,0 +1,349 @@
+html{
+    scroll-behavior: smooth;
+}
+.header {
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+   
+}
+
+.header .col-md-5 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+.header ul{}
+.header ul li {
+    display: inline-block;
+}
+.header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: -3px;
+    font-size: 18px;
+    color: #000;
+    transition: .6s;
+}
+.header ul li a:hover,
+.header ul li a.active{
+    color: rgb(241, 236, 236);
+}
+/* banner */
+.banner{
+    background: linear-gradient(to right, #1CBBE6, #25ECCD);
+    padding: 100px 0;
+    margin: 0;
+}
+
+.banner .text{
+    padding-top: 200px;
+    color: #fff;
+}
+.banner .text h1{
+    font-size: 50px;
+}
+.banner .text a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    /* width: 220px; */
+    /* height: 60px; */
+    background: rgb(255, 255, 255);
+    /* line-height: 21px; */
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+.banner img{
+    max-width: 100%;
+    
+
+}
+
+.about{
+    margin: 150px 0;
+
+}
+.about .img_text{
+    padding: 40px 0;
+}
+
+.yoga_02 img{
+    max-width: 100%;
+    
+}
+.about h6 {
+    padding: 18px;
+    font-size: 20px;
+    color: #ddd;
+    text-transform: uppercase;
+}
+.about h1{
+    text-transform: capitalize;
+    color: #44D89E;
+    padding: 20px;
+}
+
+.about_text p{
+    
+}
+
+/* our_class */
+.our_class{
+    background: rgba(231, 227, 227, 0.959);
+    padding: 150px 0 30px;
+}
+.our_class h1{
+    text-transform: capitalize;
+    padding: 40px 0;
+    color: #44D89E;
+
+}
+.our_class .inner_container{
+    background-color: #fff;
+    height: 300px;
+    
+}
+.our_class .inner_container img{
+    font-size: 50px;
+    padding: 30px 0;
+    color: #A3FFF8;
+}
+
+.our_class a {
+    width: 122px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #44D89E;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 50px 0;
+    border-radius: 50px;
+}
+
+.choose{
+    background: linear-gradient(to right, #F8C66D, #FAB17A);
+    padding: 150px 0;
+    
+}
+
+.choose h5{
+    text-transform: uppercase;
+   
+}
+
+.choose h1{
+    text-transform: capitalize;
+    padding: 40px 0;
+    color: #fff;
+
+}
+
+.choose p{
+    color: #fff;
+}
+
+.choose a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    width: 160px;
+    height: 60px;
+    color: #44D89E;
+    line-height: 60px;
+    background: #fff;
+    padding-left: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+/* feather */
+
+.feather{
+    padding: 150px 0;
+    text-align: center;
+}
+.feather .h6{
+    color: #ddd;
+}
+.feather h2{
+    color: #44D89E;
+    padding: 50px 0;
+}
+
+.col-md-12 img{
+    padding: 5px 0;
+}
+.col-md-12 .inner_h6{
+    padding-top: 40px;
+}
+
+/* expert */
+.expert{
+    background: #e8eaec;
+    padding: 120px 0;
+}
+.expert h6{
+    color: #ddd;
+}
+.expert h2{
+    padding: 30px 0;
+}
+.inner_expert{
+    padding: 30px 0;
+}
+.expert .inner_expert{
+    background: #FFFFFF;
+}
+.expert .inner_expert i{
+    padding: 7px;
+    font-size: 20px;
+    color: #7FE5EE;
+}
+.expert .view {
+    display: block;
+    text-decoration: none;
+    color: #4FD89E;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #5CDAA4;
+    margin: 60px auto;
+    border-radius: 50px;
+}
+
+
+/* testimonial */
+.testimonial{
+    background: #24E0B4;
+    padding: 150px 0;
+}
+.testimonial h6{
+    color: rgba(82, 55, 55, 0.679);
+}
+
+.testimonial h2{
+    color: #fff;
+    padding: 30px 0;
+}
+.inner_testimonial{
+    background: #FFFFFF;
+    text-align: left;
+    padding-left: 30px;
+}
+.inner_testimonial h5{
+    padding-top: 30px;
+}
+/* .inner_testimonial h5, p{
+    text-align: left;
+    padding-left: 10px;
+} */
+/* blog */
+.blog{
+    padding: 150px 0;
+    background-color: #FAFBFC;
+}
+.blog h2{
+    padding: 40px 0;
+    color: #44D89E;
+    font-size: 30px;
+}
+.blog img{
+    max-width: 100%;
+}
+
+.blog a{
+    display: inline-block;
+    text-decoration: none;
+    color: #44DAC3;
+    width: 120px;
+    height: 55px;
+    line-height: 55px;
+    border: 1px solid #44DAC3;
+    border-radius: 50px;
+    margin-left: 500px;
+}
+.blog h6{
+    color: #E3E4E5;
+}
+.blog h1{
+    color: #44D89E;
+}
+.partner{
+    padding: 110px 0;
+}
+.partner h2{
+    color: #4FD89E;
+    padding: 50px 0;
+}
+.partner .inner_partner{
+    width: 250px;
+    height: 125px;
+    line-height: 125px;
+    border: 1px solid #ddd;
+}
+.change{
+    background: linear-gradient(to left, #23E3D1, #1CB7E9);
+    padding: 140px 0;
+    color: #FFFFFF;
+
+}
+.change h1{
+    padding: 20px 0;
+}
+
+.change a{
+    display: block;
+    text-decoration: none;
+}
+
+.a_member{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    border-radius: 50px;
+    margin: 15px 0;
+    color: #FFFFFF;
+}
+a_member:hover{
+    background-color: aqua;
+    color: #FFFFFF !important;
+}
+.a_class{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+   background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 50px;
+    margin: 15px 0;
+    color: #23E5D0;
+}
+/* footer*/
+.footer{
+    color: #ddd;
+    padding: 20px;
+    
+}
+.footer h6 {
+    padding-top: 8px;
+}
+.footer span{
+   font-size: 20px;
+}
+.footer a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ddd;
+    padding: 0 10px;
+}
